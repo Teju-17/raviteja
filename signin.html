@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="signin.css">
+    <title>sign in</title>
+    <style>
+     textarea, input[type=text], input[type=email], input[type=password],input[type=button]
+     {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px solid rgb(109, 8,240);
+        box-sizing: border-box;
+     }
+    </style>
+</head>
+<body style= "background-color: gray ;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"></body>
+<h1 style = "text-align: center;">Account Sign in</h1>
+<br>
+<form style="border: 3px solid #f1f1f1">
+    <div style="padding:25px; background-color: lightblue ">
+    <label> First Name  : </label>
+    <input type="text" name="firstname" maxlength="20" placeholder="Enter First Name">
+    <br><br>
+    <label>Middel Name :</label>
+    <input type="text" name="Middelname" maxlength="20" placeholder="Enter Middle Name">
+     <br><br>
+     <label>Last Name :</label>
+     <input type="text" name="Lastname" maxlength="20" placeholder="Enter Last Name">
+      <br><br>
+      <label>Course :</label>
+      <select>
+        <option value="Course">Course</option>
+        <option value="CSE">CSE</option>
+        <option value="CIC">CIC</option>
+        <option value="ECE">ECE</option>
+        <option value="CSM">CSM</option>
+        <option value="IT">IT</option>
+        <option value="CSD">CSD</option>
+        <option value="IOT">IOT</option>
+      </select>
+      <br><br>
+      <label>Gender :</label><br>
+      <input type="radio"  value="Male">Male<br>
+      <input type="radio"  value="Female">Female<br><br>
+      <label>Phone Number :</label>
+      <input  type="number" name="country code" placeholder="+91" maxlength="14">
+      <br><br>
+      <label id="Address">Address :</label>
+      <br>
+      <textarea cols="80" rows="5"  value="Address"></textarea><br><br>
+      <label>E-mail :</label><br>
+      <input type="email" name="email-id" placeholder = "@gmail.com"><br><br>
+       <label>Password : </label>
+       <input type="password" id="pass" name="pass" maxlength="6">
+       <br><br>
+       <label>Re-Enter Password :</label>
+       <input type="password" id="pass" name="pass" maxlength="6"><br><br>
+       <input type="button" value="Submit" onclick="alert('your submission is done successfully')">
+       <footer>
+        <div id="alter">
+          <span>Don't you have an account&nbsp;&nbsp;<a href="register.html">Register</a></span>
+        </div>
+       </footer>
+     </div>
+</form>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Robix Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img class="robix-logo" src="Screenshot 2024-02-22 121501.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- <div class="user-class">
+               <button id = 'logoutbtn'>LOGOUT</button>
+            </div> -->
+        </div>
+        <div class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Learing Platform</h1>
+            <p class="par">To become a FULL STACK DEVELOPER it is essential to know about<br>
+                Front end, Back end, Data-Base, this platform helps you to make you as desired developer</p>
+            <button class="cn" id="loginbutton">LOGIN</button>
+            <button id="joinus" class="cn1"><a href="#">JOIN US</a></button>
+            <div class="form" id="loginForm">
+                <form id = "login_form" action="/login" method = "POST">
+                <span class="close" id="closeBtn">&times;</span>
+                <h2 class="err">Login Here</h2>
+                <input id="email-1" type="email" name="email" placeholder="Enter Email Here" required>
+                <input id="password-1" type="password" name="password" placeholder="Enter Password Here" required>
+                <input type="submit" value="Submit">
+                </form>
+                <p class="link">Don't have an account<br>
+                    <a href="#" id="registerLink">Get Register</a>
+                </p>
+                <hr class="line1">
+                <p class="liw">Log in with</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/?login&hl=en-gb"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><ion-icon
+                            name="logo-google"></ion-icon></a>
+                    <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a
+                        href="https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=21&ct=1707720619&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3a%2f%2flw.skype.com%2flogin%2foauth%2fproxy%3fform%3dmicrosoft_registration%26fl%3dphone2&lc=1033&id=293290&mkt=en-US&psi=skype&lw=1&cobrandid=2befc4b5-19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFligh&fl=phone2&lic=1&uaid=b4d2083c82054165b7b20805f29ccb11"><ion-icon
+                            name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+            <div id="registerform" class="register-form">
+                
+                <h2 class="reg">Register</h2>
+                <form  action="/register" method="POST">
+                    <span class="close" id="closeBtn1">&times;</span>
+                    <input id="email" type="email" name="email" placeholder="Enter Email Here" required>
+                    <input id="password" type="password" name="pass" placeholder="Enter Password Here" required>
+                    <!-- <input              
+                    type="password"
+                    name="repassword"
+                    id="repassword"
+                    placeholder="Re-Enter Password"
+                    required>                     -->
+                    <input type="submit" value="Submit">
+                </form>
+                <p class="link">Already have an account<br>
+                    <a id="signin-link" href="advancelogin.html">Sign in</a>
+                </p>
+                <hr class="line1">
+                <p class="liw">register with</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/?login&hl=en-gb"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><ion-icon
+                            name="logo-google"></ion-icon></a>
+                    <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a
+                        href="https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=21&ct=1707720619&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3a%2f%2flw.skype.com%2flogin%2foauth%2fproxy%3fform%3dmicrosoft_registration%26fl%3dphone2&lc=1033&id=293290&mkt=en-US&psi=skype&lw=1&cobrandid=2befc4b5-19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFligh&fl=phone2&lic=1&uaid=b4d2083c82054165b7b20805f29ccb11"><ion-icon
+                            name="logo-skype"></ion-icon></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="About-box">
+            <h2>About Robix</h2>
+        </div>
+        <div class="box">
+            <a class="icons1" href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+            <h4>videos from best YT channels</h4>
+            <div class="para">
+                <p class="description">This website provides videos from best youtube channels that helps you to
+                    understand
+                    how you should from basic to make you as web developer</p>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <div class="box">
+            <a class="icons1" href="#"><i class="fas fa-link"></i></a>
+            <h4>Links from best websites</h4>
+            <div class="para">
+                <p class="description">For every basic concept you have learned from the videos is better and it takes
+                    more
+                    when you refer from different best websites that makes understand deeply
+                    And you can go directly to the concept that you need by one click
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <a class="icons1" href="#"><i class="fas fa-book"></i></a>
+            <h4>Well defined description for every concept</h4>
+            <div class="para">
+                <p class="description">You can go through the description provided , to get the links or images that are
+                    used in the videos and you can choose the desired video to adjust your time by provided
+                    duration and rating of the class and description provided by the class
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <a class="icons1" href="#"><i class="fas fa-sticky-note"></i></a>
+            <h4>Provided a note box to save your work</h4>
+            <div class="para">
+                <p class="description">For every concept you learn from the videos and websites
+                    there is a note-box to store the important or related information
+                    that you want
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="Script1.js"></script>
+</body>
+
+</html>

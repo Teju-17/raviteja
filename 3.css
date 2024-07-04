@@ -1,0 +1,16 @@
+.reg
+{
+    width: 500px;
+    height:50px;
+    border: 2px solid black;
+    color: antiquewhite;
+}
+.pr
+{
+    color: orange;
+    font-family: arial;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 45px;
+    
+}

@@ -1,0 +1,215 @@
+.boxone {
+    width: 300px;
+    height:550px;
+    border: 1.5px solid black;
+    border-color: silver;
+    margin-left:500px;
+    margin-top: 50px;
+}
+.mainheading {
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 36px; 
+    color: #000;
+}
+.text1
+{
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.fbimage {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.fblink {
+    margin-left: 80px;
+    margin-top:-45px;
+    a {
+        text-decoration: none;
+        color: navy;
+    }
+}
+.fb-button {
+    display: inline-block;
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    width:250px;
+    margin-left:25px;
+    height:40px;
+    margin-top:12px;
+    
+}
+.fbimage img {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top:-20px;
+    margin-left:-35px;
+}
+.lineone {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 1px 0;
+    width: 85px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.textOR {
+    margin-left: 130px;
+    margin-top: -25px;
+}
+.linetwo {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 1px 0;
+    width: 85px;
+    margin-left: 155px;
+    margin-top: -25px;
+}
+.enterbox1 {
+    margin-left: 45px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+.enterbox2 {
+    margin-left: 45px;
+    font-size: smaller;
+    margin-top:10px;
+}
+.enterbox3 {
+    margin-left: 45px;
+    font-size: smaller;
+    margin-top: 10px;
+}
+.enterbox4 {
+    margin-left: 45px;
+    font-size: smaller;
+    margin-top:10px;
+}
+.text2
+{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+.learnmorelink
+{
+    margin-top:-15px;
+    text-align: center;
+    a
+    {
+        color: blue;
+        text-decoration: none;
+    }
+}
+.text3
+{
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.threelinks {
+    white-space: nowrap;
+    text-align: left;
+    margin-left:30px;
+    
+}
+
+.footer-links span {
+    display: inline-block;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.linkforsignup {
+    margin-left: 80px;
+    margin-top:-45px;
+    h5{
+        text-decoration: none;
+        color:white;
+        margin-top: 60px;
+        margin-left:25px;
+    }
+}
+.Signupbutton {
+    display: inline-block;
+    background-color:blue;
+    text-decoration: none;
+    width:250px;
+    margin-left:-5px;
+    height:40px;
+}
+.boxtwo {
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-color: silver;
+    margin-left:500px;
+    margin-top:15px;
+}
+.linkforlogin {
+    p {
+        text-align: center;
+        color: #000;
+    }
+    a {
+        color:blue;
+        text-decoration: none;
+    }
+}
+.footer-links
+{
+    p
+    {
+        a
+        {
+            text-decoration: none;
+            color: silver;
+
+
+        }
+    }
+}
+.footer-links {
+    white-space: nowrap;
+    text-align: left;
+    margin-left:250px
+}
+
+.footer-links span {
+    display: inline-block;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.bottom-footer {
+    display: flex;
+}
+
+.bottom-footer select,
+.bottom-footer span {
+    margin-right: 20px;
+    margin-left: 250px; 
+}
+.bottom-footer select {
+    width: 200px; 
+    height: 30px;
+    margin-left:550px; 
+}
+.bottom-footer p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top:2px;
+    margin-left:-250px;
+}
+
